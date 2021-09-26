@@ -1,0 +1,419 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+#content {
+  min-height: calc(100vh - 122px);
+  max-width: 1025px;
+  margin: 0 auto;
+}
+
+nav {
+  font-family: sans-serif;
+}
+nav .links {
+  max-width: 1025px;
+  height: 85px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+nav .links #logo {
+  width: 100px;
+  height: 50px;
+  background-image: url(../images/logo_pc.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+nav .links a {
+  color: #583306;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 18px;
+}
+nav hr {
+  background-color: #583306;
+  height: 2px;
+  border: none;
+}
+
+footer {
+  width: 100%;
+  height: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  font-family: sans-serif;
+  background-color: #583306;
+  color: white;
+}
+footer p {
+  margin: 0;
+  font-size: 12px;
+}
+
+.home {
+  width: 100%;
+  height: 100%;
+  padding-top: 30px;
+}
+.home .main-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.home .main-img__container {
+  height: 350px;
+  width: 500px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.home .main-img--rilakkuma {
+  background-image: url(../images/top_rilakkuma.png);
+}
+.home .main-img--sumikko {
+  background-image: url(../images/top_sumikko.png);
+}
+.home .char-row {
+  width: 100%;
+  padding-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.home .char-row__item {
+  height: 130px;
+  width: 130px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.home .char-row--circus {
+  background-image: url(../images/characters/sentimental.png);
+}
+.home .char-row--mame {
+  background-image: url(../images/characters/mamegoma.png);
+}
+.home .char-row--kutu {
+  background-image: url(../images/characters/kutusitanyanko.png);
+}
+.home .char-row--panda {
+  background-image: url(../images/characters/tarepanda.png);
+}
+.home .char-row--boo {
+  background-image: url(../images/characters/monokuroboo.png);
+}
+.home .char-row--afro {
+  background-image: url(../images/characters/afroken.png);
+}
+.home .char-row--jin {
+  background-image: url(../images/characters/jinbeesan.png);
+}
+.home .desc {
+  margin-top: 30px;
+  text-align: center;
+}
+.home .desc p {
+  color: #583306;
+  font-family: sans-serif;
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+
+.news {
+  color: #583306;
+  font-family: sans-serif;
+  padding-top: 20px;
+  border-bottom: 5px solid #fffab2;
+  margin-bottom: 10px;
+}
+.news .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  padding-bottom: 10px;
+  border-bottom: 5px solid #fffab2;
+}
+.news .header__icon {
+  height: 40px;
+  width: 40px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../images/icons/infomation.png);
+}
+.news .header h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 20px;
+  font-weight: lighter;
+  margin: 0 15px;
+}
+.news #notice {
+  font-size: 10px;
+  color: red;
+}
+.news__container {
+  margin: 50px 0;
+}
+.news__container p {
+  margin: 0;
+}
+.news__container h2 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: lighter;
+  color: red;
+}
+
+.contact {
+  color: #583306;
+  font-family: sans-serif;
+  padding-top: 20px;
+  border-bottom: 5px solid #583306;
+  margin-bottom: 10px;
+}
+.contact .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  padding-bottom: 10px;
+  border-bottom: 5px solid #583306;
+}
+.contact .header__icon {
+  height: 40px;
+  width: 40px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../images/icons/contact.png);
+}
+.contact .header h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 20px;
+  font-weight: lighter;
+  margin: 0 15px;
+}
+.contact__section {
+  margin: 40px 0;
+}
+.contact__section ul {
+  list-style: none;
+}
+.contact__section__item {
+  margin-bottom: 40px;
+}
+
+.company {
+  color: #583306;
+  font-family: sans-serif;
+  padding-top: 20px;
+  border-bottom: 5px solid #583306;
+  margin-bottom: 10px;
+}
+.company .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  padding-bottom: 10px;
+  border-bottom: 5px solid #583306;
+}
+.company .header__icon {
+  height: 40px;
+  width: 40px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../images/icons/company.png);
+}
+.company .header h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 20px;
+  font-weight: lighter;
+  margin: 0 15px;
+}
+.company .section {
+  margin: 30px 0;
+}
+.company .section ul {
+  list-style: none;
+}
+.company .section ul li {
+  margin-bottom: 10px;
+}
+
+.characters {
+  font-family: sans-serif;
+  padding-top: 20px;
+  margin-bottom: 10px;
+}
+.characters .main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 600px;
+}
+.characters .main__container {
+  width: 500px;
+  height: 100%;
+}
+.characters .main__container__img {
+  height: 350px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 10px;
+}
+.characters .main__container--rilakkuma {
+  background-image: url(../images/top_rilakkuma.png);
+}
+.characters .main__container--sumikko {
+  background-image: url(../images/top_sumikko.png);
+}
+.characters .main__container p {
+  color: #583306;
+  letter-spacing: 1px;
+}
+.characters .character {
+  height: 230px;
+  width: 100%;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.characters .character--circus {
+  background-color: #f4a9ae;
+}
+.characters .character--mame {
+  background-color: #98dbf7;
+}
+.characters .character--kutu {
+  background-color: #fbdaa9;
+}
+.characters .character--panda {
+  background-color: #dae9b3;
+}
+.characters .character--mono {
+  background-color: #e7e7e7;
+}
+.characters .character--afro {
+  background-color: #fffab2;
+}
+.characters .character--jin {
+  background-color: #a0dad8;
+}
+.characters .character__img {
+  margin: 0 20px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 150px;
+  width: 150px;
+}
+.characters .character__img--circus {
+  background-image: url(../images/characters/sentimental.png);
+}
+.characters .character__img--mame {
+  background-image: url(../images/characters/mamegoma.png);
+}
+.characters .character__img--kutu {
+  background-image: url(../images/characters/kutusitanyanko.png);
+}
+.characters .character__img--panda {
+  background-image: url(../images/characters/tarepanda.png);
+}
+.characters .character__img--mono {
+  background-image: url(../images/characters/monokuroboo.png);
+}
+.characters .character__img--afro {
+  background-image: url(../images/characters/afroken.png);
+}
+.characters .character__img--jin {
+  background-image: url(../images/characters/jinbeesan.png);
+}

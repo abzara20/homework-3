@@ -1,0 +1,33 @@
+nav {
+  // background-color: cadetblue;
+  font-family: sans-serif;
+  .links {
+    max-width: 1025px;
+    height: 85px;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    #logo {
+      width: 100px;
+      height: 50px;
+      background-image: url(../images/logo_pc.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    a {
+      color: $brown;
+      text-decoration: none;
+      font-weight: bolder;
+      font-size: 18px;
+    }
+  }
+  hr {
+    background-color: $brown;
+    height: 2px;
+    border: none;
+  }
+}

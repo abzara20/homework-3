@@ -1,0 +1,94 @@
+.characters {
+  font-family: sans-serif;
+  padding-top: 20px;
+  margin-bottom: 10px;
+  .main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 600px;
+    &__container {
+      width: 500px;
+      height: 100%;
+      &__img {
+        height: 350px;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-bottom: 10px;
+      }
+      &--rilakkuma {
+        background-image: url(../images/top_rilakkuma.png);
+      }
+      &--sumikko {
+        background-image: url(../images/top_sumikko.png);
+      }
+      p {
+        color: $brown;
+        letter-spacing: 1px;
+      }
+    }
+  }
+  .character {
+    height: 230px;
+    width: 100%;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    // background-color: rosybrown;
+    display: flex;
+    align-items: center;
+    // justify-content: space-evenly;
+    &--circus {
+      background-color: $pink;
+    }
+    &--mame {
+      background-color: $blue;
+    }
+    &--kutu {
+      background-color: $orange;
+    }
+    &--panda {
+      background-color: $macha;
+    }
+    &--mono {
+      background-color: $grey;
+    }
+    &--afro {
+      background-color: $canary;
+    }
+    &--jin {
+      background-color: $jin;
+    }
+    &__img {
+      margin: 0 20px;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 150px;
+      width: 150px;
+      &--circus {
+        background-image: url(../images/characters/sentimental.png);
+      }
+      &--mame {
+        background-image: url(../images/characters/mamegoma.png);
+      }
+      &--kutu {
+        background-image: url(../images/characters/kutusitanyanko.png);
+      }
+      &--panda {
+        background-image: url(../images/characters/tarepanda.png);
+      }
+      &--mono {
+        background-image: url(../images/characters/monokuroboo.png);
+      }
+      &--afro {
+        background-image: url(../images/characters/afroken.png);
+      }
+      &--jin {
+        background-image: url(../images/characters/jinbeesan.png);
+      }
+    }
+  }
+}
